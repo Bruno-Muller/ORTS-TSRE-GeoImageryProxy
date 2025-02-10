@@ -53,6 +53,14 @@ Il est nécessaire de lancer GeoImageryProxy.exe uniquement si on veut utiliser 
 
 ![Bing](https://i.postimg.cc/hjkmdP4z/localhost2.jpg)
 
+#### Geoportail IGN
+
+![Geoportail IGN](https://i.postimg.cc/85YYfY0X/localhost3.jpg)
+
+#### Geoportail IGN (1950-1965)
+
+![Geoportail IGN (1950-1965)](https://i.postimg.cc/prqJn5rW/localhost4.jpg)
+
 ### Configuration avancée
 
 Le fichier **GeoImageryProxy.exe.config** contient d'autres paramètres, en particulier:
@@ -76,4 +84,5 @@ Le fichier **GeoImageryProxy.exe.config** contient d'autres paramètres, en part
 
 ## Release
 
+- 2022-02-10 - [beta-patch01](https://github.com/Bruno-Muller/ORTS-TSRE-GeoImageryProxy/releases/download/beta-patch01/GeoImageryProxy.zip)
 - 2022-04-06 - [beta](https://github.com/Bruno-Muller/ORTS-TSRE-GeoImageryProxy/releases/download/beta/GeoImageryProxy.zip)
