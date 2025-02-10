@@ -6,7 +6,7 @@ Cet outil est un proxy web qui permet de rediriger les requêtes de TSRE vers di
 
 ### Installation
 
-Voir la selection [release](#release) pour le téchargement du zip.
+Voir la section [release](#release) pour le téchargement du zip.
 Le zip est à extraire n'importe où.
 
 ### Configuration rapide du proxy d'imagerie satellite
@@ -84,5 +84,5 @@ Le fichier **GeoImageryProxy.exe.config** contient d'autres paramètres, en part
 
 ## Release
 
-- 2022-02-10 - [beta-patch01](https://github.com/Bruno-Muller/ORTS-TSRE-GeoImageryProxy/releases/download/beta-patch01/GeoImageryProxy.zip)
+- 2025-02-10 - [beta-patch01](https://github.com/Bruno-Muller/ORTS-TSRE-GeoImageryProxy/releases/download/beta-patch01/GeoImageryProxy.zip)
 - 2022-04-06 - [beta](https://github.com/Bruno-Muller/ORTS-TSRE-GeoImageryProxy/releases/download/beta/GeoImageryProxy.zip)
