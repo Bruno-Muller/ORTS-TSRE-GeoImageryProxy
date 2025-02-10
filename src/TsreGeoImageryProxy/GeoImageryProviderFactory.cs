@@ -45,15 +45,15 @@ namespace GeoImageryProxy
                 new GeoImageryProviderBuilder()
                 .SetName("IGN")
                 .SetDisplayName("Geoportail IGN")
-                .AddUrl("https://wxs.ign.fr/x7yv499pbcguxhhxh8syehwe/geoportail/wmts?layer=ORTHOIMAGERY.ORTHOPHOTOS&style=normal&tilematrixset=PM&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fjpeg&TileMatrix={ZoomLevel}&TileCol={TileX}&TileRow={TileY}")
+                .AddUrl("https://data.geopf.fr/wmts?layer=ORTHOIMAGERY.ORTHOPHOTOS&style=normal&tilematrixset=PM&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fjpeg&TileMatrix={ZoomLevel}&TileCol={TileX}&TileRow={TileY}")
                 .Build()
                 );
 
             list.Add(
                new GeoImageryProviderBuilder()
                .SetName("IGN_1950")
-               .SetDisplayName("Geoportail IGN (1950-1960)")
-               .AddUrl("https://wxs.ign.fr/x7yv499pbcguxhhxh8syehwe/geoportail/wmts?layer=ORTHOIMAGERY.ORTHOPHOTOS.1950-1965&style=BDORTHOHISTORIQUE&tilematrixset=PM&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fpng&TileMatrix={ZoomLevel}&TileCol={TileX}&TileRow={TileY}")
+               .SetDisplayName("Geoportail IGN (1950-1965)")
+               .AddUrl("https://data.geopf.fr/wmts?layer=ORTHOIMAGERY.ORTHOPHOTOS.1950-1965&style=BDORTHOHISTORIQUE&tilematrixset=PM&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fpng&TileMatrix={ZoomLevel}&TileCol={TileX}&TileRow={TileY}")
                .Build()
                );
 
@@ -62,7 +62,7 @@ namespace GeoImageryProxy
                new GeoImageryProviderBuilder()
                .SetName("IGN_1820")
                .SetDisplayName("Geoportail IGN (1820-1866) Etat-Major")
-               .AddUrl("https://wxs.ign.fr/x7yv499pbcguxhhxh8syehwe/geoportail/wmts?layer=ORTHOIMAGERY.ORTHOPHOTOS.1950-1965&style=BDORTHOHISTORIQUE&tilematrixset=PM&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fpng&TileMatrix={ZoomLevel}&TileCol={TileX}&TileRow={TileY}")
+               .AddUrl("https://data.geopf.fr/wmts?layer=GEOGRAPHICALGRIDSYSTEMS.ETATMAJOR40&style=BDORTHOHISTORIQUE&tilematrixset=PM&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fpng&TileMatrix={ZoomLevel}&TileCol={TileX}&TileRow={TileY}")
                .Build()
                );
             */
