@@ -45,10 +45,12 @@ Le fournisseur d'imagerie satellite peut être sélectionné depuis la liste dé
 
 Il est nécessaire de lancer GeoImageryProxy.exe uniquement si on veut utiliser les options Geo, Map, Z17,Z18 de TSRE.
 
-Google Map
+#### Google Map
+
 ![Google Map](https://i.postimg.cc/PJnHD0gr/localhost.jpg)
 
-Bing
+#### Bing
+
 ![Bing](https://i.postimg.cc/hjkmdP4z/localhost2.jpg)
 
 ### Configuration avancée
