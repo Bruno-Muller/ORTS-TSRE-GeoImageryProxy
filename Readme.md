@@ -28,7 +28,7 @@ Il faut configurer TSRE pour le faire pointer vers le proxy d'imagerie satellite
 Les instructions sont indiqués dans la fenêtre pour configurer TSRE, il suffit de modifier le fichier settings.txt avec le paramètre
 
 ```
-imageMapsUrl = http://localhost:8000/?lon={lon}&lat={lat}&zoom={zoom}&res={res}
+imageMapsUrl = http://localhost:8000/?lon={lon}&lat={lat}&zoom={zoom}&size={res}
 ```
 
 ### Lancer et tester le proxy d'imagerie satellite
@@ -84,5 +84,6 @@ Le fichier **GeoImageryProxy.exe.config** contient d'autres paramètres, en part
 
 ## Release
 
+- 2025-05-15 - [beta-patch02](https://github.com/Bruno-Muller/ORTS-TSRE-GeoImageryProxy/releases/download/beta-patch02/GeoImageryProxy.zip)
 - 2025-02-10 - [beta-patch01](https://github.com/Bruno-Muller/ORTS-TSRE-GeoImageryProxy/releases/download/beta-patch01/GeoImageryProxy.zip)
 - 2022-04-06 - [beta](https://github.com/Bruno-Muller/ORTS-TSRE-GeoImageryProxy/releases/download/beta/GeoImageryProxy.zip)
