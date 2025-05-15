@@ -43,7 +43,7 @@ namespace GeoImageryProxy
             sb.AppendLine($"BETA RELEASE");
             sb.AppendLine();
             sb.AppendLine("Make sure you have the correct setting for \"imageMapsUrls\" in TSRE \"settings.txt\" file:");
-            sb.AppendLine($"imageMapsUrl = http://localhost:{Properties.Settings.Default.PortNumber}/?lon={{lon}}&lat={{lat}}&zoom={{zoom}}&res={{res}}");
+            sb.AppendLine($"imageMapsUrl = http://localhost:{Properties.Settings.Default.PortNumber}/?lon={{lon}}&lat={{lat}}&zoom={{zoom}}&size={{res}}");
             sb.AppendLine();
             sb.AppendLine($"Raw images from providers will be stored at \"{Properties.Settings.Default.ImageryFolder}\"");
             sb.AppendLine($"Port numbers is \"{Properties.Settings.Default.PortNumber}\"");
